@@ -32,7 +32,8 @@ The technologies used in this project include:
 
 ## Screenshot of website
 ![image](https://github.com/user-attachments/assets/eac01612-fd5b-4361-bde7-6efd53ba0454)
-![image](https://github.com/user-attachments/assets/c8f3e83f-e55a-43eb-af43-5c5d1a35cf0b)
+![Pict](https://github.com/user-attachments/assets/f7b27fb3-bece-468f-bb12-70f31f9dc386)
+
 
 ## Author
 [@namanrath007](https://github.com/namanrath007)
