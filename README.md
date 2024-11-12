@@ -5,7 +5,7 @@ This project is a Real-Time PDF Co-Viewer that allows synchronized PDF viewing f
 ## Deployment of website
 The application is live and accessible at the following link:
 https://kalvium-task-qapd.onrender.com
-[View Deployment]([https://your-deployment-link.com](https://kalvium-task-qapd.onrender.com))
+([https://your-deployment-link.com](https://kalvium-task-qapd.onrender.com))
 
 ## Table of Contents
 - [Project Title](#project-title)
@@ -30,8 +30,12 @@ The technologies used in this project include:
 - Responsive design for cross-device compatibility.
 - Scalable Node.js server setup.
 
-Screenshot of website
+## Screenshot of website
 ![image](https://github.com/user-attachments/assets/eac01612-fd5b-4361-bde7-6efd53ba0454)
 ![image](https://github.com/user-attachments/assets/c8f3e83f-e55a-43eb-af43-5c5d1a35cf0b)
+
+## Author
+[@namanrath007](https://github.com/namanrath007)
+
 
 
