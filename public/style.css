@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-image: linear-gradient(
+      to bottom,
+      rgb(31, 38, 38),
+      rgba(40, 55, 55, 0.73)
+      
+      
+    ),
+    url("pic3.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    background-image: url('/pic3.png'); /* Replace 'your-image-url.jpg' with the actual path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: rgba(145, 145, 145, 0.5); */
+}
+
+#heading{
+    justify-content: center;
+    align-items: center;
+    color:#333;
+    font-weight:bold;
+    font-size:50px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#pdfViewer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pdfCanvas {
+    max-height: 80vh; /* Adjust max height as needed */
+    max-width: 90vw;  /* Adjust max width as needed */
+    overflow: auto;
+    border: 1px solid #000;
+    margin-bottom: 40px;
+    /* padding: 150px 150px 150px 150px; */
+    padding: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(239, 236, 236, 0.5);
+    /* background-color: azure; */
+    
+}
+
+#controls {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+#pageInfo{
+    /* color:#333; */
+    padding: 6px 12px;
+    color: black;
+    font-weight:bold;
+    border: 2px solid #666;
+    border-radius: 5px;
+    background-color: #666;
+}
+
+#prevPage,
+#nextPage {
+    padding: 6px 12px;
+    color: #666;
+    background-color: #333;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+#prevPage:hover,
+#nextPage:hover {
+    padding: 6px 18px;
+    background-color: #333;
+    color: #ffee10;
+    border-color: #ffee10;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
